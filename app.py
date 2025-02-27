@@ -23,19 +23,19 @@ st.markdown(
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  /* Adds subtle shadow for depth */
         }
         h1, h2, h3, h4, h5, h6 {
-            color:rgb(56, 5, 105)!important;  /* Light blue color for headings to stand out */
+            color:rgb(56, 5, 105)!important;  /* dark color for headings to stand out */
         }
         .stButton>button {
             border: none;
             border-radius: 8px;  /* Rounds button edges */
-            background-color: #28a745;  /* Primary blue for buttons */
+            background-color: #28a745;  /* Primary green for buttons */
             color: white;  /* White text for contrast */
             padding: 0.75rem 1.5rem;  /* Enlarges button for better interaction */
             font-size: 1rem;  /* Readable button text */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);  /* Shadow for button depth */
         }
         .stButton>button:hover {
-            background-color: #218838;  /* Darker blue on hover for visual feedback */
+            background-color: #218838;  /* Darker green on hover for visual feedback */
             cursor: pointer;
         }
         .stDataFrame, .stTable {
